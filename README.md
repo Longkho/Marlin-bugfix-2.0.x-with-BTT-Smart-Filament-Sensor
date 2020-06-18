@@ -13,8 +13,11 @@ by the Octoprint through Telegram I can still have sufficient filament left that
 filament and insert a new roll of filament.
 
 The following set in Configuration.h it works better
-RUNOUT_DISTANCE_MM 25
 
-the pins for the runout sernsor is P1_26, files located in lpc1768/pins_BTT_SKR_V1.4.h  
-#define FIL_RUNOUT_PIN                     P1_26  // E0DET
+ #define FILAMENT_RUNOUT_DISTANCE_MM    25
+
+
+the pins for the runout sernsor is P1_26, files located in lpc1768/pins_BTT_SKR_V1.4.h
+
+#define FIL_RUNOUT_PIN                     P1_26    // E0DET
 
